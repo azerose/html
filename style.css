@@ -10,7 +10,7 @@ body{
 	background-attachment:fixed;
 	background-size:cover;
 	background-position:center;
-	background-image:url(images/background.gif);
+	background-image:url(images/halloween-background.gif);
     background-color:#999;
 }
 .wrapper{
@@ -44,18 +44,24 @@ body{
 }
 
 .section{
+	background-image:url(images/icon-information.png);
+	background-repeat: no-repeat;
 	background-color:white;
+	background-position: right 30px center;
 	margin: 20px;
 	padding:20px;
 }
 .section h2{
 	color:orangered;
 	margin-bottom: 20px;
-	border-bottom: 2px solid #eee;
 }
 .section li{
 	border-left: 4px solid #ddd;
 	padding: 6px 10px 3px;
+}
+.section li:hover{
+	color:orangered;
+	border-color:orangered;
 }
 .footer{
 	background-color:#111;
